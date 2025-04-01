@@ -6,7 +6,7 @@
 }
 body {
     background: #fcf4f4;
-    color: #333;
+    color: #2d2323;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -34,7 +34,7 @@ nav ul li {
 }
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #261f1f;
     font-weight: 500;
     transition: color 0.3s, transform 0.3s;
 }
@@ -43,7 +43,7 @@ nav ul li a:hover {
     transform: scale(1.1);
 }
 section {
-    padding: 120px 120px;
+   
     text-align: center;
     opacity: 0;
     transform: translateY(20px);
@@ -58,10 +58,13 @@ h1, h2 {
     font-family: 'Playfair Display', serif;
     color: #222;
     font-weight: 600;
+    font-size: xx-large;
+    padding: 20px;
     margin-bottom: 15px;
 }
 p {
     font-size: 1.2em;
+    padding: 20px;
 }
 .project-list {
     display: flex;
